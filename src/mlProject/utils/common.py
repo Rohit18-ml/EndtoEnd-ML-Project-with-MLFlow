@@ -78,9 +78,6 @@ def load_json(path: Path) -> ConfigBox:
         ConfigBox: data as class attributes instead of dict
     """
     with open(path) as f:
-                                                                                                                                 4,1 Top
-
-
         content = json.load(f)
 
     logger.info(f"json file loaded succesfully from: {path}")
@@ -130,5 +127,5 @@ def get_size(path: Path) -> str:
 
 
 
-                                                                                                                          130,0-1 Bot
+                                                                                                                          
 
